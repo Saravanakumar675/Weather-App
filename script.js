@@ -1,7 +1,7 @@
 const apiKey = "7ffeda6a84d6d91e5e21507c59a46417";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather"; 
 const URL = apiUrl +"appid=" + apiKey + "&q=" + "London" + "&units=metric";
-
+import images from 'images';
 
 
 const searchBox = document.querySelector(".search input");
